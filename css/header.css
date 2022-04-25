@@ -13,6 +13,10 @@ html {
   font-size: 10px;
 }
 
+.blue {
+  color: var(--main-blue);
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -97,4 +101,10 @@ header {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media only all and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
 }
