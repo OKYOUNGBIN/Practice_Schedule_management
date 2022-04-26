@@ -67,9 +67,3 @@ main {
   cursor: pointer;
   font-size: 1.4rem;
 }
-
-@media only all and (max-width: 400px) {
-  html {
-    font-size: 8px;
-  }
-}
